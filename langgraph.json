@@ -1,0 +1,11 @@
+{
+    "node_version": "20",
+    "graphs":{
+        "agent": "./lib/agent.ts:graph"
+    },
+    "auth": {
+        "path": "./lib/auth.ts:authHandler"
+    },
+    "env": ".env.local",
+    "dependencies": ["."]
+}
